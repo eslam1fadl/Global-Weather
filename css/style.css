@@ -1,0 +1,425 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Roboto, "Open Sans", sans-serif;
+}
+:root{
+    --main-color:#1E202B;
+    --secondary-color:#323544;
+    --third-color:#009AD8;
+}
+body{
+    background-color: var(--main-color) !important;
+    height: 100%;
+}
+ 
+.navbar-brand{
+    vertical-align: middle;
+    color: white;
+}
+.navbar-toggler i{
+    color: white !important;
+   padding: 20px;
+}
+.navbar-toggler{
+    outline: none !important;
+    border: none !important;
+    box-shadow: none !important;
+}
+.navbar-toggler:focus{
+    outline: none !important;
+    border: none !important;
+    box-shadow: none !important;
+
+}
+.navbar-toggler i:hover{
+    
+    color: #009AD8 !important;
+    border: 1px solid #009AD8  !important;
+    border-radius: 50% !important;
+}
+a img{
+    vertical-align: middle;
+
+}
+.logo-type{
+    margin-top: 20px !important;
+
+}
+.logo-type .site-description{
+    font-size: 12px;
+    color: rgb(191, 193, 200);
+    font-family: Roboto, "Open Sans", sans-serif;
+    font-weight: 300;
+
+}
+.logo-type .site-title{
+    font-size: 18px;
+    font-family: Roboto, "Open Sans", sans-serif;
+    font-weight: 700;
+
+}
+.navbar{
+    background-color: var(--main-color) !important;
+    color: white !important;
+}
+.nav-item{
+    margin: 0 10px;
+}
+.nav-item a{
+    color: white !important;
+    font-size: 17px !important;
+    line-height: 21px !important;
+    font-weight: 400 !important;
+   
+}
+.nav-item .active{
+    color: var(--third-color) !important;
+    border:2px solid var(--third-color) !important;
+    border-radius: 20px !important;
+    padding-left:  20px !important;
+    padding-right: 20px !important;
+   
+    
+}
+/* .nav-item a:hover{
+    color: var(--third-color) !important;
+    border:2px solid var(--third-color) !important;
+    border-radius: 20px !important;
+
+} */
+
+
+.home{
+    background-image: url(../img/banner.png);    
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.form-floating input{
+    background-color: var(--main-color) !important;
+    color: #ccc    !important;
+    font-size: 14px !important;
+    font-weight: 400px !important;
+    padding: 0px 0px  10px 10px !important;
+    border: none !important;
+    outline: none !important;
+    border-radius: 50px !important;
+    box-shadow: none !important;
+
+}
+.form-control::placeholder {
+    color: #ccc !important; 
+    padding: 0px 0px  10px 10px !important;
+    font-size: 14px !important;
+    font-weight: 400px !important;
+    opacity: 1; 
+}
+.form-control:focus::placeholder {
+    color: #ccc; 
+}
+.home.form-control input:focus{
+    background-color: var(--main-color) !important;
+    border: none !important;
+    outline: none !important;   
+    background-color: var(--main-color) !important;
+    box-shadow: none !important;
+}
+.btn{
+    right:60px !important;
+    margin-top: 5px !important;
+    padding: 10px 30px;
+    border-radius: 20px !important;
+    color: #009AD8!important;
+    color: white !important;
+    z-index: 1111 !important;
+}
+.item{
+    background-color: #323544 !important;
+    color: rgb(191, 193, 200);
+    height:480px !important;
+}
+.fo-ho{
+    background-color: #2D303D;
+    border-bottom: 1px;
+    padding: 10px;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 21px !important;
+
+
+}
+.city-name{
+    font-size: 18px !important;
+    line-height: 27px !important;
+    color: rgb(191, 193, 200);
+    padding: 20px !important;
+}
+.grade{
+    font-size: 80px;
+    font-weight: 700;
+    color: white !important;
+    padding: 10px !important;
+}   
+.clear{
+    color: #009AD8;
+    padding: 30px;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 21px !important;
+
+}
+.weather-icon{
+    padding: 30px;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 21px !important;
+}
+.weather-icon i{
+    padding: 15px;
+}
+.item2{
+    background-color: #262936 !important;
+    color: rgb(191, 193, 200);
+    height:480px !important;
+
+}
+.fo{
+    background-color: #222530;
+    border-bottom: 1px;
+    padding: 10px;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 21px !important;
+}
+.gr{
+    padding: 20px;
+}
+
+.grade-max{
+    font-size: 25px;
+    font-weight: 700;
+    line-height: 36px;
+    color: white !important;;
+}
+.grade-min{
+    color: rgb(191, 193, 200);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 21px !important;
+}
+.Sunny{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 21px !important;
+    color: #009AD8;
+}
+
+.item3{
+    background-color: #323544 !important;
+    color: rgb(191, 193, 200);
+    height:480px !important;
+
+}
+.fo2{
+    background-color: #2D303D;
+    border-bottom: 1px;
+    padding: 10px;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 21px !important;
+}
+.footer{
+    padding: 50px !important;
+    background-color: var(--secondary-color);
+}
+
+.social-links a{
+    text-decoration: none;
+    color: #009AD8;
+   
+    
+}
+.social-links i{
+    background-color: #1E202B !important;
+    padding: 15px !important;
+    border-radius: 50%;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 20px;
+
+   
+}
+.social-links i:hover{
+    color:#1E202B;
+    background-color: #009AD8 !important;
+}
+
+.footer .form-floating input{
+    background-color: var(--main-color) !important;
+    outline: none !important;
+    color: #ccc    !important;
+    font-size: 14px !important;
+    font-weight: 400px !important;
+    padding: 0px 0px  10px 10px !important;
+    border: none !important;
+    outline: none !important;
+    box-shadow: none !important;
+
+    border-radius: 50px !important;
+}
+.footer .form-floating input :focus{
+    background-color: var(--main-color) !important;
+    border: none !important;
+    outline: none !important;   
+}
+
+.btn2{
+    right:10px !important;
+    margin-top: 8px !important;
+    padding: 10px 30px;
+    border-radius: 20px !important;
+    color: #009AD8!important;
+    color: white !important;
+    z-index: 111;
+}
+
+.colophon{
+    color: rgb(191, 193, 200);
+}
+
+
+
+
+@media (min-width: 0px) and (max-width: 639px) {
+    .footer input{
+        font-size: 10px !important;
+    }
+    .footer .btn2{
+        font-size: 10px !important;
+    }
+   
+
+}
+@media (min-width: 640px) { 
+    .footer input{
+        font-size: 8px !important;
+        font-weight: 200 !important;
+        padding-top: 5px !important;
+
+    }
+    .footer .btn2{
+        font-size: 8px !important;
+        padding-top: 5px !important;
+
+        font-weight: 200 !important;
+    }
+    
+   
+}
+@media (min-width: 768px) { 
+    .footer .form-floating input{
+        font-size: 13px !important;
+        font-weight: 300 !important;
+        padding-top: 5px !important;
+
+
+    }
+    .footer .form-floating.btn2{
+        font-size: 13px !important;
+        padding-top: 5px !important;
+
+        font-weight: 300 !important;
+
+    }
+    
+}
+@media (min-width: 1024px) { 
+   
+    .footer .form-floating .btn2{
+
+        font-size: 16px !important;
+        font-weight: 400 !important;
+
+    }
+}
+@media (min-width: 1280px) { 
+    
+
+}
+@media (min-width: 1536px) {
+   
+
+}
+
+
+/* ---------------------------------------------------------------------- */
+.contact-c{
+   margin: auto;
+}
+.contact-c input{
+    background-color: #323544 !important;
+}
+.contact-c div{
+    color: white !important;
+    padding: 20px 0 0 20px !important;
+
+}
+.contact-c div a{
+    text-decoration: none;
+    color: rgb(191, 193, 200);
+}
+
+.cos{
+    height:350px !important;
+    border-radius: 20px;
+    padding: 30px;
+    color: rgb(191, 193, 200);
+    background-color: var(--secondary-color);
+}
+.cos a{
+    text-decoration: none;
+    color: rgb(191, 193, 200) !important;
+}
+.contact-info{
+    display: flex;
+    justify-content: end;
+    justify-items: end;
+}
+.contact-form{
+    color: rgb(191, 193, 200) !important;
+}
+.contact-form h1{
+    color: white !important;
+}
+.contact-form .form-floating input{
+    background-color: var(--secondary-color) !important;
+    outline: none !important;
+    color: #ccc    !important;
+    font-size: 14px !important;
+    font-weight: 400px !important;
+    padding: 0px 0px  10px 10px !important;
+    border: none !important;
+    outline: none !important;
+    box-shadow: none !important;
+
+    border-radius: 50px !important;
+    
+}
+.footer.form-floating input:focus{
+    background-color: var(--main-color) !important;
+    outline: none !important;
+    box-shadow: none !important;
+    border: none !important;
+}
+
+.btn3{
+    background-color:#009AD8;
+    padding: 10px 20px;
+    border-radius: 20px !important;
+    color: white !important;
+    bottom:-50px;
+    right:10px !important;
+}
+

@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Weather</title>
+    <link rel="icon" href="img/logo@2x.png" type="image/x-icon">
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container">
+            <a class="navbar-brand p-4 d-flex flex-row" href="/">
+                <img src="img/logo@2x.png" alt="" class="logo m-3" width="64" height="38">
+                <div class="logo-type">
+                    <h1 class="site-title">Weather</h1>
+                    <p class="site-description">tagline goes here</p>
+                </div>
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <i class="fa-solid fa-sliders"></i>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto mb-2">
+                    <li class="nav-item p-3">
+                        <a class="nav-link active" aria-current="page" href="#">Home</a>
+                    </li>
+                    <li class="nav-item p-3">
+                        <a class="nav-link" href="#">News</a>
+                    </li>
+                    <li class="nav-item p-3">
+                        <a class="nav-link" href="#">Live cameras</a>
+                    </li>
+                    <li class="nav-item p-3">
+                        <a class="nav-link" href="#">Photo</a>
+                    </li>
+                    <li class="nav-item p-3">
+                        <a class="nav-link" href="contact.html">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <section class="home">
+        <div class="container">
+            <div class="form-floating input-group p-5 position-relative">
+                <input type="text" class="form-control" id="serachInput" placeholder="Find your location..." >
+                <button class="btn btn-primary position-absolute" >Find</button>
+            </div>
+
+            <br>
+            <br>
+            <div class="row" id="container">
+                   <!-- <div class="weather d-flex flex-row flex-wrap col-12"> 
+                    <div class="col-12 col-md-6 col-lg-4">
+                        <div class="item d-flex flex-column flex-wrap">
+                            <div class="fo-ho d-flex justify-content-between flex-row w-100">
+                                <div class="">Friday</div>
+                                <div>13 December</div>
+                            </div>
+                            <div class="gr-clr">
+                                <div class="city-name">London</div>
+                                <div class="grade d-flex justify-content-center align-items-center">17.1<sup>o</sup>C</div>
+                                <div>
+                                    <img src="img/113.png" class="w-25 p-2" alt="">
+                                </div>
+                                <div class="clear">Clear</div>
+                            </div>
+                            <div class="weather-icon">
+                                <i><img src="img/icon-umberella.png" alt=""> 20%</i>
+                                <i><img src="img/icon-wind.png" alt=""> 18km/h</i>
+                                <i><img src="img/icon-compass.png" alt=""> East</i>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-12 col-md-6 col-lg-4">
+                        <div class="item2 d-flex flex-column flex-wrap">
+                            <div class="fo d-flex justify-content-center">
+                                <div class="">Saturday</div>
+                            </div>
+                            <i></i>
+                            <div class="gr d-flex justify-content-center align-items-center flex-column flex-wrap pt-5">
+                                <div>
+                                    <img src="img/114.png" alt="">
+                                </div>
+                                <div class="grade-max d-flex justify-content-center align-items-center pt-3">17.1<sup>o</sup>C</div>
+                                <div class="grade-min d-flex justify-content-center align-items-center pt-3">17.1<sup>o</sup>C</div>
+                                <div class="Sunny d-flex justify-content-center align-items-center pt-5">Sunny</div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-12 col-md-6 col-lg-4">
+                        <div class="item3 d-flex flex-column flex-wrap">
+                            <div class="fo2 d-flex justify-content-center">
+                                <div class="">Saturday</div>
+                            </div>
+                            <div class="gr d-flex justify-content-center align-items-center flex-column pt-5">
+                                <div>
+                                    <img src="img/114.png" alt="">
+                                </div>
+                                <div class="grade-max d-flex justify-content-center align-items-center pt-3">17.1<sup>o</sup>C</div>
+                                <div class="grade-min d-flex justify-content-center align-items-center pt-3">17.1<sup>o</sup>C</div>
+                                <div class="Sunny d-flex justify-content-center align-items-center pt-5">Sunny</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>   -->
+            </div>
+        </div>
+    </section>
+
+    <br>
+    <br>
+    <section class="footer">
+        <div class="container">
+            <div class="row d-flex flex-wrap">
+                <div class="col-12 col-md-8">
+                    <div class="form-floating input-group position-relative text-center">
+                        <input type="text" class="form-control col-sm-6" id="" placeholder="Enter your email ...">
+                        <button class="btn2 btn-primary position-absolute text-center top-0 end-0">Subscribe</button>
+                    </div>
+                    <br>
+                    <p class="colophon d-flex justify-content-start w-100 pt-5"> On Sun, Dec 14, 2024 at 12:00, Eslam Fadl wrote:</p>
+                    <a class="px-2" href="mailto:eslam.fadl2338@gmail.com"> eslam.fadl2338@gmail.com</a> 
+                       
+                     
+                </div>
+                <div class="col-12 col-md-4 p-2">
+                    <div class="social-links">
+                        <a href=""><i class="fab fa-facebook"></i></a>
+                        <a href=""><i class="fab fa-twitter"></i></a>
+                        <a href=""><i class="fab fa-google"></i></a>
+                        <a href=""><i class="fab fa-pinterest"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <script src="js/main.js"></script>
+    <script src="js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
